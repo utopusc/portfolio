@@ -2,9 +2,9 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
-  url: "https://dillion.io",
+  name: "Bruce Ozturk",
+  initials: "BO",
+  url: "https://bozturk.tech",
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
@@ -18,54 +18,43 @@ export const DATA = {
     "Typescript",
     "Node.js",
     "Python",
-    "Go",
     "Postgres",
     "Docker",
-    "Kubernetes",
-    "Java",
-    "C++",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "burakcanoztruk@gmail.com",
+    tel: "+16503987973",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://dub.sh/utopusc",
         icon: Icons.github,
-
-        navbar: true,
-      },
-      LinkedIn: {
-        name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
-        icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://dub.sh/bruceozx",
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "https://dub.sh/utopuscyt",
         icon: Icons.youtube,
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "burakcanoztruk@gmail.com",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -120,28 +109,28 @@ export const DATA = {
         "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
     },
     {
-      company: "Lime",
+      company: "Utopi Technologies",
       href: "https://li.me/",
       badges: [],
-      location: "San Francisco, CA",
+      location: "Istanbul, Turkiye",
       title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
+      logoUrl: "/utopi.png",
+      start: "February 2020",
+      end: "December 2021",
       description:
         "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
     },
     {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
+      company: "Bahcesehir University",
+      href: "https://bau.edu.tr",
       badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
+      location: "Istanbul, Turkiye",
+      title: "Data Science Intern",
+      logoUrl: "/bau.png",
+      start: "July 2019",
+      end: "July 2020",
       description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
+        "During my internship at Bahçeşehir University, I focused on developing advanced data science skills and contributing to impactful projects. In 2019, I enhanced my technical expertise by advancing my Teknofest finalist project, which I worked on during my internship. This achievement led to me securing a full scholarship from the university, further recognizing my academic and professional potential. My time at BAU not only honed my abilities in data analysis and machine learning but also strengthened my problem-solving and teamwork skills through collaborative research initiatives.",
     },
   ],
   education: [
